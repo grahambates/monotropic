@@ -1,0 +1,4 @@
+out/*
+obj/*
+.DS_Store
+.vscode/settings.json

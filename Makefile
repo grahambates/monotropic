@@ -54,4 +54,4 @@ $(deps): obj/%.d : %.asm
 	$(info Building dependencies for $<)
 	$(VASM) $(VASMFLAGS) -quiet -depend=make -o $(patsubst %.d,%.o,$@) $(CURDIR)/$< > $@
 
-.PHONY: all clean
+.PHONY: all clean dist

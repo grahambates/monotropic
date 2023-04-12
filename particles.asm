@@ -178,13 +178,6 @@ Frame:
 		; d5 = vy
 		movem.w	(a5)+,d0-d5
 
-; 		lea Music_Levels,a3
-; 		move.w (a3),d6
-; 		beq .ok
-; 		lsl.w #5,d6
-; 		add.w d6,d2
-; .ok
-
 		; Apply velocity
 		add.w	d4,Paricle_X(a5)
 		add.w	d5,Paricle_Y(a5)
